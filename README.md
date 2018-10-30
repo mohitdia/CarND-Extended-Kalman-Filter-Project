@@ -6,6 +6,7 @@ The code changes were made to the following 3 files:
 * kalman_filter.cpp - predict, update and updateEKF methods were implemented.
 
 The application can be compiled using:
+* `mkdir build`
 * `cd build && cmake ..`
 * `make`
 * `./ExtendedEKF`
