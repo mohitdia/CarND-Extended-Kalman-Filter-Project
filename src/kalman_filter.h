@@ -64,6 +64,12 @@ public:
    */
   void UpdateEKF(const Eigen::VectorXd &z);
 
+  /**
+   * Normalizes the angle of the difference vector
+   * @param phi Difference angle
+  */
+  void NormalizeAngle(double& phi);
+
 };
 
 #endif /* KALMAN_FILTER_H_ */
